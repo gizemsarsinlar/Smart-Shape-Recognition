@@ -10,7 +10,7 @@ The first data set used in the project is the data set where perfect shapes were
 
 The second data set is created by merging two data sets. In addition to the first perfect shape data set, an existing data set Geometric Shapes Mathematics from Kaggle was added to improve the understanding of hand-drawn shapes. A total of 6000 shapes are presented in the data set. These shapes are divided into 3 classes train, test, and validation. A rate of 80 percent was determined for the training process, and 10 percent for testing and validation.
 
-![image](https://user-images.githubusercontent.com/33731743/218152487-badf095e-8638-4956-9a94-80a3615b0a95.png)
+![image](https://user-images.githubusercontent.com/33731743/218152631-3d072fa4-c140-498e-befb-76c3ea29ed4b.png)
 
 TRAINING AND VALIDATION
 
