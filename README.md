@@ -5,10 +5,12 @@ This project presents a method for shape recognition using data generation and t
 DATASETS
 
 The first data set used in the project is the data set where perfect shapes were created. It was plotted according to the height and width values determined for triangles and squares. Circles were plotted according to the determined radius length. Data augmentation was performed on the plotted figures for triangles, squares, and circles. By generating the shapes that were originally created, 4000 shapes were obtained from each shape. These shapes are divided into 3 classes train, test, and validation. A rate of 80 percent was determined for the training process, and 10 percent for testing and validation. The classification process over batch is shown in Figure 1. 0 represent circles, 1 represent squares and 2 represent triangles.
-![image](https://user-images.githubusercontent.com/33731743/218131779-8c647801-d20c-4d28-bac9-9a1c9b07fd5c.png)
+
+![image](https://user-images.githubusercontent.com/33731743/218152209-8eec9ae1-0e4e-4328-8ca9-89e1b5081099.png)
 
 The second data set is created by merging two data sets. In addition to the first perfect shape data set, an existing data set Geometric Shapes Mathematics from Kaggle was added to improve the understanding of hand-drawn shapes. A total of 6000 shapes are presented in the data set. These shapes are divided into 3 classes train, test, and validation. A rate of 80 percent was determined for the training process, and 10 percent for testing and validation.
-![image](https://user-images.githubusercontent.com/33731743/218131994-14e9c5ff-1029-4cc1-806b-e203526e4f17.png)
+
+![image](https://user-images.githubusercontent.com/33731743/218152331-4cf367e5-0adc-4ed1-979d-f95ed8791d50.png)
 
 TRAINING AND VALIDATION
 
