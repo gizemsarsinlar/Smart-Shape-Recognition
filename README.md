@@ -13,12 +13,15 @@ The second data set is created by merging two data sets. In addition to the firs
 TRAINING AND VALIDATION
 
 Below, the accuracy and loss graphs for each model are presented. The X-axis represents the number of epochs, the Y-axis represents accuracy or loss. The accuracy of models increased with each epoch on the training data set. In some cases, when training accuracy continues to increase the validation accuracy decreases. This is a sign of overfitting, models tend to memorize the training data instead of generalizing to new data. Overfitting is most common in the graph of the 3 convolution layer perfect shapes model. It is understandable because overfitting occurs when the machine learning model is unable to generalize its predictions to new data and fits too closely to the training dataset.
+
 ![image](https://user-images.githubusercontent.com/33731743/218132413-80556c51-a43b-4e03-815d-1dcbd53ce2c6.png)
 
 The 5 convolutional layers of CNN have the ability to learn the underlying patterns in the data better than the 3 convolutional layers CNN, which results in higher accuracy, due to the additional layers in the model providing more capacity for learning. Because the 5 convolutional layers CNN has a higher number of parameters to optimize, it will take a longer time to train in comparison to the 3 convolutional layers CNN.
+
 ![image](https://user-images.githubusercontent.com/33731743/218132568-16a6f67e-ebe0-462f-a9ae-5ee3e7453b91.png)
 
 5 convolutional layers CNN and 3 convolution layer CNNmixed data set gave very close accuracy results, but 3 layer mixed data set’s accuracy is slightly less than 5 convolution layer CNN. With compared with 3 convolution layer CNN overfitting occurred much less in 3 convolution layer CNNmixed shapes even though it has 3 layers too. When we fed the data set in more diverse ways, it became easier to learn new data.
+
 ![image](https://user-images.githubusercontent.com/33731743/218132733-2cca471e-fb27-4090-9395-e7750f345e81.png)
 
 INTERFACE
@@ -27,12 +30,15 @@ Streamlit was chosen to create an easy interface for users. It is an open-source
 
 After the training was carried out on the 3 models created, the testting was started over the interface. As shown in figure, the similarity percentage of the
 square drawn on the canvas in the 3 convolutional layers model trained with the perfect shape data set was 39.20.
+
 ![image](https://user-images.githubusercontent.com/33731743/218133154-84e6a355-d5be-4c29-ac9a-01d986ab0702.png)
 
 The similarity rate of the second model with 5 layers trained with perfect shapes is 99.90.
+
 ![image](https://user-images.githubusercontent.com/33731743/218133257-dda29e96-a1af-45e9-ad3b-f3747b609c4d.png)
 
 The similarity rate of the third and final model with 3 layers trained with mixed shapes is 100.
+
 ![image](https://user-images.githubusercontent.com/33731743/218133352-4f7e0e85-e94f-4f4f-8539-02bf0235f762.png)
 
 CONCLUSION
