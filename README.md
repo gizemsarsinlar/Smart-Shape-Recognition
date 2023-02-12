@@ -49,5 +49,5 @@ In conclusion, the Smart Shape Recognition project was a success in using data g
 
 ![image](https://user-images.githubusercontent.com/33731743/218332535-39102a96-894b-4e58-8578-808316498b0d.png)
 
-![image](https://user-images.githubusercontent.com/33731743/218332446-4ccab0b3-2c42-46fd-ae45-5de0221fe4fb.png)
+![image](https://user-images.githubusercontent.com/33731743/218332581-1d0767c9-4e58-40f4-a375-a41faad524a1.png)
 
