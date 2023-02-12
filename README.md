@@ -1,5 +1,7 @@
 # Smart Shape Recognition
 
+![image](https://user-images.githubusercontent.com/33731743/218332535-39102a96-894b-4e58-8578-808316498b0d.png)
+
 This project presents a method for shape recognition using data generation and training. The method involves generating synthetic data of 3 different geometric shapes and then training a Convolutional Neural Network on this data to recognize and classify the shapes. The network is enriched with hand-drawn images, and the results show that the network is able to accurately recognize and classify shapes. This approach is tested with different models throughout the project via Streamlit interface. The aim is to utilize this method, particularly for Parkinson’s disease.
 
 DATASETS
@@ -30,6 +32,8 @@ INTERFACE
 
 Streamlit was chosen to create an easy interface for users. It is an open-source Python library that allows developers to create web apps for machine learning and data science. A sidebar has been added to our interface so that users can easily try different models. Three different models are embedded in each sidebar. A short function was written into these sidebars to get prediction output. Each sidebar has a drawable canvas inside. The drawable canvas is added to the Streamlit application using the ”st.canvas” function. The canvas is essentially a blank space on which the user can draw interactively. In this way, users can draw shapes and try on models in real-time.
 
+![image](https://user-images.githubusercontent.com/33731743/218332581-1d0767c9-4e58-40f4-a375-a41faad524a1.png)
+
 After the training was carried out on the 3 models created, the testting was started over the interface. As shown in figure, the similarity percentage of the
 square drawn on the canvas in the 3 convolutional layers model trained with the perfect shape data set was 39.20.
 
@@ -47,7 +51,6 @@ CONCLUSION
 
 In conclusion, the Smart Shape Recognition project was a success in using data generation and training three different models to accurately identify three shapes. This article provided a comparison of models and testing with real-life examples. The implementation of Streamlit as the user interface made the process of classifying shapes user-friendly and efficient. The results show how different models performed in identifying the hand-drawn shapes. And the data generation techniques used were effective in creating a diverse data set for training. Overall, the project demonstrated the effectiveness of utilizing machine learning techniques for shape recognition and the potential for further improvement in accuracy and efficiency. The further aim of this project would be to use this for Parkinson’s disease since Parkinson’s disease have difficulty with fine motor skills, such as drawing.
 
-![image](https://user-images.githubusercontent.com/33731743/218332535-39102a96-894b-4e58-8578-808316498b0d.png)
 
-![image](https://user-images.githubusercontent.com/33731743/218332581-1d0767c9-4e58-40f4-a375-a41faad524a1.png)
+
 
