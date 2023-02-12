@@ -47,7 +47,7 @@ CONCLUSION
 
 In conclusion, the Smart Shape Recognition project was a success in using data generation and training three different models to accurately identify three shapes. This article provided a comparison of models and testing with real-life examples. The implementation of Streamlit as the user interface made the process of classifying shapes user-friendly and efficient. The results show how different models performed in identifying the hand-drawn shapes. And the data generation techniques used were effective in creating a diverse data set for training. Overall, the project demonstrated the effectiveness of utilizing machine learning techniques for shape recognition and the potential for further improvement in accuracy and efficiency. The further aim of this project would be to use this for Parkinson’s disease since Parkinson’s disease have difficulty with fine motor skills, such as drawing.
 
-![image](https://user-images.githubusercontent.com/33731743/218332425-fee76d9c-0a05-42b7-81d6-3b34ae678000.png)
+![image](https://user-images.githubusercontent.com/33731743/218332495-ff6e1056-26b7-49ad-ba59-5a82a63658a7.png)
 
 ![image](https://user-images.githubusercontent.com/33731743/218332446-4ccab0b3-2c42-46fd-ae45-5de0221fe4fb.png)
 
