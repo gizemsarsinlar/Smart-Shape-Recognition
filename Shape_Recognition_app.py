@@ -59,6 +59,7 @@ def predict(uploaded_file, model):
 
 st.title('SMART SHAPE RECOGNITION')
 st.text('Using Streamlit v1.16.0')
+st.text('Gizem Sarsınlar & Doğa Sütcüoğlu')
 # making Sidebar for navigation and options
 activities = ['Mission Statement','Model0', 'Model1','Model2']
 choice = st.sidebar.selectbox('SideBar Navigation', activities)
