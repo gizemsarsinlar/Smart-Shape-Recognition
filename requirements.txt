@@ -6,9 +6,8 @@ streamlit_drawable_canvas
 threaded
 opencv-python
 tensorflow
-tensorflow.keras.preprocessing
+Keras-Preprocessing
 keras
-keras.models
-tensorflow.keras.models
-keras.applications.inception_v3
-PIL
+keras-models
+Keras-Applications
+Pillow
