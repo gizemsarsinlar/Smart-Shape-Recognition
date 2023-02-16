@@ -1,7 +1,6 @@
 streamlit
 numpy
 pandas
-matplotlib.pyplot
 sklearn.metrics
 streamlit_drawable_canvas
 threading
