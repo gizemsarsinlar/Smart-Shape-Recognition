@@ -4,7 +4,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error as mse
 from streamlit_drawable_canvas import st_canvas
 import threading
