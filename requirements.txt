@@ -4,7 +4,7 @@ pandas
 scikit-learn
 streamlit_drawable_canvas
 threaded
-opencv-python
+opencv-python-headless
 tensorflow
 Keras-Preprocessing
 keras
@@ -13,3 +13,4 @@ Keras-Applications
 Pillow
 skia-python
 libgl1
+
