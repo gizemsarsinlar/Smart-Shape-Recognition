@@ -31,35 +31,6 @@ from PIL import Image
 lock = threading.Lock()
 img_container = {"img": None}
 
-
-# def video_frame_callback(frame):
-#     img = frame.to_ndarray(format="bgr24")
-#     with lock:
-#         img_container["img"] = img
-
-#     prediction = model.predict(video_frame_callback)
-#     model = tf.keras.models.load_model('C:/Users/gizem/OneDrive/Masaüstü/Shape_recognition/model_v2.h5')
-
-
-#     return frame
-
-
-# ctx = webrtc_streamer(key="example", video_frame_callback=video_frame_callback)
-
-# fig_place = st.empty()
-# fig, ax = plt.subplots(1, 1)
-
-# while ctx.state.playing:
-#     with lock:
-#         img = img_container["img"]
-#         print(img)
-#     if img is None:
-#         continue
-#     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-#     #ax.cla()
-#     # ax.hist(gray.ravel(), 256, [0, 256])
-#     #fig_place.pyplot(fig)
-
 #function to predict image
 def predict(uploaded_file, model): 
     #loading image from the path of image
@@ -95,14 +66,12 @@ st.text('Using Streamlit v1.16.0')
 activities = ['Mission Statement','Model0', 'Model1','Model2']
 choice = st.sidebar.selectbox('SideBar Navigation', activities)
 if choice == 'Mission Statement':
-    img = Image.open('C:/Users/gizem/OneDrive/Masaüstü/Shape_recognition/img2.png')
+    img = Image.open('.models/img2.png')
     st.image([img],width=150)
     st.subheader('Mission Statement')
     st.text('The project attempts to develop an empirical method for evaluating human-drawn shapes. \n')
     st.text('Accuracy, loss validation, and accuracy validation values are differentiated with\n')
     st.text('the CNN model using the Keras library. \n')
-    #st.image([img01,img02],width=300)
-    #st.text("Further aim of this project is to detect Parkinson disease.") 
     st.text('')
 
 
@@ -121,12 +90,10 @@ elif choice == 'Model0':
     stroke_width=stroke_width,
     stroke_color=stroke_color,
     background_color=bg_color,
-    #background_image=Image.open(bg_image) if bg_image else None,
     update_streamlit=realtime_update,
     height=448,
     width=448,
     drawing_mode=drawing_mode,
-    #point_display_radius=point_display_radius if drawing_mode == 'point' else 0,
     key="canvas",
     )   
 
