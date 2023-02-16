@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 from streamlit_drawable_canvas import st_canvas
 import threading
+import cv2
 
 import streamlit as st
 
