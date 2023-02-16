@@ -11,3 +11,4 @@ keras
 keras-models
 Keras-Applications
 Pillow
+skia-python
