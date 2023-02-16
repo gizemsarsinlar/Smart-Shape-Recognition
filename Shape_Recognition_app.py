@@ -4,14 +4,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from sklearn.metrics import mean_squared_error as mse
-from streamlit_drawable_canvas import st_canvas
-import threading
-
-import cv2
-import streamlit as st
-from matplotlib import pyplot as plt
-
 
 #image processing imports
 import tensorflow as tf
