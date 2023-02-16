@@ -12,5 +12,5 @@ keras-models
 Keras-Applications
 Pillow
 skia-python
-libgl1
+
 
