@@ -3,10 +3,8 @@ numpy
 pandas
 scikit-learn
 streamlit_drawable_canvas
-threading
-cv2
-streamlit
-matplotlib
+threaded
+opencv-python
 tensorflow
 tensorflow.keras.preprocessing
 keras
