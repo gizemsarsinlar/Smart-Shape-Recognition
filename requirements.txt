@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+threaded
+cv2
+tensorflow
+keras
+Image
