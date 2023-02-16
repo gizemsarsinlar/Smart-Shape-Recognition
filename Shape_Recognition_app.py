@@ -63,7 +63,7 @@ st.text('Using Streamlit v1.16.0')
 activities = ['Mission Statement','Model0', 'Model1','Model2']
 choice = st.sidebar.selectbox('SideBar Navigation', activities)
 if choice == 'Mission Statement':
-    img = Image.open('.models/img2.png')
+    img = Image.open('./models/img2.png')
     st.image([img],width=150)
     st.subheader('Mission Statement')
     st.text('The project attempts to develop an empirical method for evaluating human-drawn shapes. \n')
