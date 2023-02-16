@@ -1,7 +1,7 @@
 streamlit
 numpy
 pandas
-sklearn.metrics
+scikit-learn
 streamlit_drawable_canvas
 threading
 cv2
