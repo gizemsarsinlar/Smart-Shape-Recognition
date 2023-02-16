@@ -1,5 +1,7 @@
 # Smart Shape Recognition
 
+[DEMO](https://gizemsarsinlar-smart-shape-recogni-shape-recognition-app-oxmf2a.streamlit.app/)
+
 ![image](https://user-images.githubusercontent.com/33731743/218332535-39102a96-894b-4e58-8578-808316498b0d.png)
 
 This project presents a method for shape recognition using data generation and training. The method involves generating synthetic data of 3 different geometric shapes and then training a Convolutional Neural Network on this data to recognize and classify the shapes. The network is enriched with hand-drawn images, and the results show that the network is able to accurately recognize and classify shapes. This approach is tested with different models throughout the project via Streamlit interface. The aim is to utilize this method, particularly for Parkinson’s disease.
